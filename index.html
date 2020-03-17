@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.background{
+  width: 95%;
+  height: 200px;
+  background: #ff4949;
+  border-radius: 15px;
+  transform: skew(-5deg); 
+  position: relative;
+  left: 20px;
+  top: 5px;
+  bottom: 10px;
+}
+
+header h1,h2{
+  text-align: center;
+}
+
+
+.typewriter h1{
+  overflow: hidden; 
+  color:white;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  font: italic bold Arial, Helvetica, sans-serif;
+  letter-spacing: .15em; 
+  animation-delay: 10ms;
+  animation-fill-mode: forwards;
+  animation: 
+    typing 4s steps(40, end);
+    
+}
+
+.typewriter h2{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  color:white;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation-delay: 250ms;
+  animation: 
+    typing 4s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(247, 247, 247); }
+}
+body {
+  font-size: 28px;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 3;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff3a3a;
+  position: relative;
+  top: 0px;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+
+li a:hover {
+  background-color: #111;
+  color:white;
+}
+
+.head1,.head2,.head3,.head4 {
+  width: 95%;
+  height: 40px;
+  font-size: 35px;
+  background: #f8e6e6;
+  border-radius: 15px; 
+  position: relative;
+  left: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  top: 1px;
+  padding-left: 10px;
+  bottom: 10px;
+  color: #111;
+}
+.img1{
+  float: right;
+}
+
+.img2 {
+  float: left;
+  margin-right: 5px;
+}
+.img3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.art1,.art2,.art3{
+  text-align:justify;
+}
+
+.highlight{
+  background: yellow;
+}
+
+.gallery {
+    border: 1px solid #ff3a3a;
+    float: left;
+    width: 22.5%;
+    margin-right: 1%;
+  }
+  
+.gallery:hover {
+    border: 4px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    display: block;
+}
+.banner{
+  margin-top: 20px;
+  display: flexbox;
+}
+
+</style>
+</head>
+<body>
+  
+</style>
+</head>
+<body>
+
+<header class="background">
+    <div class="typewriter"><h1>It's a Red Alert.</h1>
+    <h2>But, Together We shall Overcome.</h2>
+    </div>
+</header>
+<div class="nav">
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#symptoms">Symptoms</a></li>
+  <li><a href="#protection">Protection</a></li>
+</ul>
+</div>
+<div class="head1">
+  <a name="home">
+  <p>What is Coronavirus disease(COVID-19)?</p>
+</div>
+<p class=art1><img class="img1" src="image1.png" alt="Virus" style="width:250px;height:250px;margin-left:15px;">
+  Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as 
+  Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).
+Coronavirus disease (COVID-19) is a new strain that was discovered in 2019 and has not been previously identified in humans.
+Coronaviruses are zoonotic, meaning they are transmitted between animals and people.  
+Detailed investigations found that SARS-CoV was transmitted from civet cats to humans and MERS-CoV from dromedary camels to humans. 
+Several known coronaviruses are circulating in animals that have not yet infected humans. </p>
+</a>
+<div class="head2">
+  <p>How serious is the situation?</p>
+</div>
+
+<p class="art2"><img class="img2" src="image2.jpg" alt="Quarantine" style="width:270px;height:270px;margin-left:15px;">
+  The World Health Organization (WHO) has declared a global pandemic over Coronavirus. In the current situation where COVID-19 is rapidly spreading worldwide and the number of cases in Europe is rising with 
+  increasing pace in several affected areas, there is a need for immediate targeted action. The speed with which COVID-19 
+  can cause nationally incapacitating epidemics once transmission within the community is established, indicates that in a 
+  few weeks or even days, it is likely that similar situations to those seen in China and Italy may be seen in other EU/EEA countries or the UK.
+  <strong> There are no vaccines available and there is little evidence on the effectiveness of potential therapeutic agents.</strong>  </p>
+
+
+<div class="head3">
+  <a name="symptoms">
+  <p>What are the symptoms?</p>
+</div>
+<p class="art3">
+  According to the WHO, signs of infection include <span class="highlight">fever, cough, shortness of breath and breathing difficulties.</span>
+  In more severe cases, it can lead to pneumonia, multiple organ failure and even death.
+  Current estimates of the incubation period - the time between infection and the onset of symptoms - range from one to 14 days. 
+  Most infected people show symptoms within five to six days.However, infected patients can also be asymptomatic, meaning they do not 
+  display any symptoms despite having the virus in their systems.What adds to the the gravity of the situation is that there is presumably no pre-existing immunity in the 
+  population against the new coronavirus and everyone in the population is assumed to be susceptible. 
+  While the majority of cases (80%) are milder respiratory infections and pneumonias, severe illness and death is 
+  more common among the elderly with other chronic underlying conditions, 
+  with these risk groups accounting for the majority of severe disease and fatalities to date.
+  <img class="img3" src="image3.png" alt="Symptoms" style="width:750px;height:150px;margin: auto;">
+   </p>
+  </a>
+
+<div class="head4">
+  <p>How to protect yourself?</p>
+</div>
+  
+<p class="art4">
+  Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through 
+  your national and local public health authority. COVID-19 is still affecting mostly people in China with 
+  some outbreaks in other countries. Most people who become infected experience mild illness and recover,
+   but it can be more severe for others. Take care of your health and protect others by doing the following:
+   <a name="protection">
+   <ul>
+    <li>Wash your hands frequently</li>
+    <li>Maintain social distancing by using protective masks</li>
+    <li>Avoid touching eyes, nose and mouth</li>
+    <li>Practice respiratory hygiene</li>
+    <li>If you have fever, cough and difficulty breathing, seek medical care early</li>
+    <li>Stay at home if you begin to feel unwell, even with mild symptoms such as headache and slight runny nose, until you recover.</li>
+    <li>Stay informed and follow advice given by your healthcare provider</li>
+  </ul>  </p>
+  
+  <div class="gallery">
+      <img src="image4.png" alt="Corona Poster1"  height="400">
+  </div>
+  
+  <div class="gallery">
+      <img src="image5.png" alt="Corona Poster2" height="400">
+  </div>
+  
+  <div class="gallery">
+      <img src="image6.png" alt="Corona Poster3" height="400">
+  </div>
+  
+  <div class="gallery">
+      <img src="image7.jpg" alt="Corona Poster4" height="400">
+  </div>
+</a>
+<div class="banner">
+<img src="image8.jpg" alt="Corona Poster5" height="400" width="100%">
+</div>
+
+<div class="quote" style="display: block;text-align:center;">
+    <p>Built with &#9825; by Amal Antony</p>
+</div>
+</body>
+</html>
